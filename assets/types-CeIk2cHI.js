@@ -1,0 +1,1 @@
+const n=8,o=3e4;function s(t,e=Date.now()){return!!t&&t.expiresAt>e}function i(t){if(!t||typeof t!="object")return!1;const e=t;return(e.type==="offer"||e.type==="answer"||e.type==="ice")&&typeof e.epoch=="number"&&typeof e.connectionId=="string"}export{o as H,n as R,i as a,s as i};
